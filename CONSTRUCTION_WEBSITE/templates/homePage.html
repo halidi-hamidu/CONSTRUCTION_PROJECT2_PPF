@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} home{% endblock %} 
+{% block content %}
+<div class="hero_section">
+  <h4 data-aos="fade-down">electrical engineering services &</h4>
+  <h3 data-aos="fade-down">innovative </h3>
+  <h3 data-aos="fade-down">construction</h3>
+  <div class="button">
+    <a href="" class="connect_with_us">connect with us</a>
+  </div>
+</div>
+<div class="overlay_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="item">
+          <div class="who_we_are">
+            <h3 class="who_we_are_title" data-aos="fade-down">who we are</h3>
+            <div class="empty_section"></div>
+            <p class="who_we_are_descriptions">
+              We specialized in providing  electrical engineering  solution through high experienced engineering team
+              covering a 
+              complete range of electrical systems for commercial, residential, corporates, 
+              governmental, educational, hospitality ...
+            </p>
+            <div class="button">
+              <a href="" class="button_read_more">Read more</a>
+            </div>
+          </div>
+          <div class="image_section" data-aos="fade-down">
+            <img src="{% static './images/overlaypic.jpg'%}"  class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="team_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="team_title">our team</h3>
+        <div class="item">
+          <div class="staff">
+            <img class="img-fluid" src="{% static './images/avatar.jpg' %}" alt="">
+            <h5>staff1</h5>
+          </div>
+          <div class="staff">
+            <img class="img-fluid" src="{% static './images/avatar.jpg' %}" alt="">
+            <h5>staff2</h5>
+          </div>
+          <div class="staff">
+            <img class="img-fluid" src="{% static './images/avatar.jpg' %}" alt="">
+            <h5>staff3</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

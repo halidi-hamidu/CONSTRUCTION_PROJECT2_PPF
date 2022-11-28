@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} portfolio{% endblock %} 
+{% block content %}
+<div class="hero_section_in_portfolio">
+  <p>--prortfolio--</p>
+</div>
+<div class="key_for_success_in_portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center pt-5 text-white">We are growing and would always like to remain on the growing
+          streak</p>
+        <div class="item">
+          <div class="key_for_developments">
+            <h3>our key for development</h3>
+            <div class="empty"></div>
+            <div class="list">
+              <ul>
+                <li>Desire for Excellence</li>
+                <li>Trust and confidence build-up</li>
+                <li>Innovation</li>
+                <li>Transparency</li>
+                <li>Teamwork</li>
+              </ul>
+            </div>
+          </div>
+          <div class="empty1"></div>
+          <div class="believes">
+            <h3>We beleive in</h3>
+            <div class="empty"></div>
+            <div class="list">
+              <ul>
+                <li>Motivation</li>
+                <li>Collective responsibility and leadership</li>
+                <li>Professionalism and ethics</li>
+                <li>Adding valuesto our client needs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="project_done">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Project done</h3>
+        <div class="empty"></div>
+        <div class="item">
+          <div class="project">
+            <img src="{% static './images/pic3.jpg'%}" alt="" class="img-fluid">
+            <p class="text-center pt-3">short info</p>
+          </div>
+          <div class="project">
+            <img src="{% static './images/pic3.jpg'%}" alt="" class="img-fluid">
+            <p class="text-center pt-3">short info</p>
+          </div>
+          <div class="project">
+            <img src="{% static './images/pic3.jpg'%}" alt="" class="img-fluid">
+            <p class="text-center pt-3">short info</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
